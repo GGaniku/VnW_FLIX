@@ -1,0 +1,36 @@
+//SELETORES: Propriedades: valores;
+//Ex: h1 { color: blue; font-size: 12px; }
+
+// 26-09-2025 -> selecionamento através:
+// tag = selecionar todo mundo
+// class (usamos quando queremos reaproveitar o estilo)
+// id = para apenas um
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; //esses dois eliminam a estilização oficial do navegador
+}
+
+// primeira coisa que fazemos ao criar um site
+// margin -> espaçamento que vai ficar na margem
+// arterístico serve pra fazermos a formatação do nosso site de forma universal
+
+// Selecionando Tag
+img {
+    width: 300px;
+}
+
+// Selecionar Class
+// Função de pegar um elemento específico, mesmo estando dentro de tags iguals (por exemplo, colocar class em uma div específica)
+// seletor universal  -> *  (ou também chamado de seletor global)
+.card{
+    background-color: red;
+    border: 10px solid green;
+    opacity: 0.7;
+}
+
+// ID
+#bt1 {
+    background-color: green;
+}
