@@ -1,36 +1,67 @@
 //SELETORES: Propriedades: valores;
 //Ex: h1 { color: blue; font-size: 12px; }
 
-// 26-09-2025 -> selecionamento através:
+// Selecionamento através:
 // tag = selecionar todo mundo
 // class (usamos quando queremos reaproveitar o estilo)
 // id = para apenas um
 
+// Seletor Global:
+
 * {
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box; //esses dois eliminam a estilização oficial do navegador
+    margin: 0; //espaçamento entre as tags (caixas)
+    padding: 0; //espaçamento de dentro das caixas
+    box-sizing: border-box; //não precisar calcular espaçamento, ou seja, o espaçameto que colocarmos, o site vai seguir
 }
 
 // primeira coisa que fazemos ao criar um site
 // margin -> espaçamento que vai ficar na margem
 // arterístico serve pra fazermos a formatação do nosso site de forma universal
 
-// Selecionando Tag
+
+// Tag
+
+h2 {
+    color: red;
+}
+
 img {
     width: 300px;
 }
 
-// Selecionar Class
+// Classes
 // Função de pegar um elemento específico, mesmo estando dentro de tags iguals (por exemplo, colocar class em uma div específica)
-// seletor universal  -> *  (ou também chamado de seletor global)
+// pode ter a mesma class em várias divs
+
 .card{
     background-color: red;
     border: 10px solid green;
+    border-radius: 10px;
+    padding: 10px;
     opacity: 0.7;
+    width: 30vw;
+
+    img {
+        width: 100%;
+    }
+
+    button {
+        background-color: rgba(104, 241, 104, 0.891);
+        width: 100%;
+    }
+
 }
 
 // ID
+// Único, não dá para duas ou mais divs terem o mesmo id
 #bt1 {
     background-color: green;
 }
+
+// Medidas
+
+// - Fixas: PX (pixels) - (Não mudam)
+/* - Relativas:
+% (porcentagem);
+VW (Viewport Widht - largura da tela);
+VH (Viewport Height - altura da tela) - (Mudam conforme o tamanho da tela)*/
