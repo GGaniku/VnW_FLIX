@@ -18,35 +18,57 @@
 // margin -> espaçamento que vai ficar na margem
 // arterístico serve pra fazermos a formatação do nosso site de forma universal
 
-
-// Tag
-
-h2 {
-    color: red;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-img {
-    width: 300px;
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    border: solid;
+    background-color: rgb(183, 183, 183);
+#logo {
+     width: 5%;
+}
+}
+
+.pages {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+main {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
 }
 
 // Classes
 // Função de pegar um elemento específico, mesmo estando dentro de tags iguals (por exemplo, colocar class em uma div específica)
 // pode ter a mesma class em várias divs
 
+
 .card{
-    background-color: red;
-    border: 10px solid green;
+    background-color: rgb(243, 243, 243);
+    border: 10px solid rgb(60, 60, 60);
     border-radius: 10px;
     padding: 10px;
-    opacity: 0.7;
-    width: 30vw;
+    width: 20vw;
 
     img {
         width: 100%;
     }
 
     button {
-        background-color: rgba(104, 241, 104, 0.891);
+        background-color: rgba(125, 255, 85, 0.891);
         width: 100%;
     }
 
@@ -54,9 +76,9 @@ img {
 
 // ID
 // Único, não dá para duas ou mais divs terem o mesmo id
-#bt1 {
-    background-color: green;
-}
+// #bt1 {
+//     background-color: green;
+// }
 
 // Medidas
 

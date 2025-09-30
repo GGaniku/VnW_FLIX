@@ -3,16 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>VnW Flix</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <h2>VNW FLIX</h2>
-      <ul>
-        <li><a href=""> Início </a></li>
-        <li><a href=""> Filmes </a></li>
-      </ul>
+      <div class="header">
+        <img
+          src="./img/pipoca.png"
+          alt="Ícone de uma pipoca em animação"
+          id="logo"
+        />
+        <h1>VNW FLIX</h1>
+      </div>
+      <div class="pages">
+        <a href="" id="inicio"> Início </a>
+        <a href="" id="filmes"> Filmes </a>
+      </div>
     </header>
 
     <!-- Main -->
@@ -29,14 +37,34 @@
       </div>
 
       <!-- Card -->
-      <div>
+      <div class="card">
         <img
           src="https://upload.wikimedia.org/wikipedia/pt/thumb/0/04/Spider-man-far-from-home-poster.jpg/250px-Spider-man-far-from-home-poster.jpg"
           alt="Homem-Aranha: Longe de Casa"
         />
         <h2>Homem-Aranha: Longe de Casa</h2>
-        <button id="bt1">Ver agora</button>
+        <button>Ver agora</button>
       </div>
+
+      <!-- Card -->
+       <div class="card">
+        <img
+          src="./img/homem-aranha-sem-volta-para-casa.jpg"
+          alt="Homem-Aranha: Sem Volta para Casa"
+        />
+        <h2>Homem-Aranha: Sem Volta para Casa</h2>
+        <button>Ver agora</button>
+       </div>
+       
+       <!-- Card -->
+       <div class="card">
+        <img
+          src="./img/homem-aranha-aranhaverso.png"
+          alt="Homem-Aranha: Através do Aranhaverso"
+        />
+        <h2>Homem-Aranha: Através do Aranhaverso</h2>
+        <button>Ver agora</button>
+       </div>
     </main>
   </body>
 </html>
