@@ -25,6 +25,14 @@
     width: 100%;
 }
 
+#inicio, #filmes, #series, #perfil {
+    background-color: blue; //cor do fundo de cada item
+    color: white; //cor do texto
+    border-radius: 50px; //arredonda a borda
+    padding: 10px; //espaço que terá a "borda"
+    font-size: 20px; //tamanho do texto dos itens
+}
+
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -34,7 +42,7 @@ header {
     border: solid;
     background-color: rgb(183, 183, 183);
 #logo {
-     width: 5%;
+     width: 2.5%;
 }
 }
 
@@ -42,13 +50,19 @@ header {
     display: flex;
     text-align: center;
     justify-content: space-around;
-    
 }
 
 main {
     display: flex;
+
     text-align: center;
     justify-content: space-around;
+}
+
+h2 {
+    // font-family: 'Helvetica', sans-serif; //fonte principal
+    font-size: 20px; //tamanho da fonte
+    text-size-adjust: 0.5; //ajusta a altura do 'x' para 50% do tamanho da fonte
 }
 
 // Classes
@@ -71,7 +85,10 @@ main {
         background-color: rgba(125, 255, 85, 0.891);
         width: 100%;
     }
+}
 
+img {
+    height: 80%;
 }
 
 // ID
