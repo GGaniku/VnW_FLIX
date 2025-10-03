@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+body {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+header {
+  border: solid;
+  background-color: rgb(0, 0, 255);
+}
+header #logo {
+  width: 2.5%;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -22,14 +36,6 @@
 h1 {
   color: rgb(255, 255, 255);
   text-align: center;
-}
-
-header {
-  border: solid;
-  background-color: rgb(183, 183, 183);
-}
-header #logo {
-  width: 2.5%;
 }
 
 .pages {
@@ -52,7 +58,7 @@ h2 {
 }
 
 .card {
-  background-color: rgb(243, 243, 243);
+  background-color: #dad7cd;
   border: 10px solid rgb(60, 60, 60);
   border-radius: 10px;
   padding: 10px;
